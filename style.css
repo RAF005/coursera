@@ -1,0 +1,144 @@
+
+
+p {
+	padding: 5px;
+	margin-top: 50px;
+}
+
+.h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.land{
+	
+	
+	border: 3px solid;
+	background-color: #ffaa00;
+	float: right;
+	
+}
+
+#L1{
+	
+	background-color: #ffe6b3;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:  right;
+	border: 3px solid;
+	padding: 2%;
+	margin: 0 auto;
+	float: right;	
+}
+
+
+
+.sky{
+	
+	border: 3px solid;
+	background-color: #cce6ff;
+	float: right;
+	
+}
+
+#S1{
+	background-color: #00ace6;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:  right;
+	border: 3px solid;
+	padding: 2%;
+	margin: 0 auto;
+	float: right;
+}
+
+.ocean{
+	
+	border: 3px solid;
+	background-color: #004d99;
+	float: right;
+		
+}
+
+
+#O1{
+	background-color: #80dfff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:  right;
+	border: 3px solid;
+	padding: 2%;
+	margin: 0 auto;
+	float: right;
+	
+
+}
+
+/*------- desktop------*/
+
+@media (min-width: 992px){
+
+	.land{
+		width: 30%;
+		margin-left: 2%;
+	    margin-right: 2%;
+	}
+
+	.sky{
+		width: 30%;
+		margin-left: 2%;
+	}
+
+	.ocean{
+		width: 30%;
+		margin-left: 2%;
+	}
+}
+ 
+ 
+
+
+/*-------tablet---------*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+     .land{
+     	width: 46%;
+     	margin-left: 2%;
+     	margin-right: 2%;
+
+     }
+
+
+     .sky{
+     	width: 46%;
+     }
+
+     .ocean{
+     	width: 95%;
+     	margin-top: 20px;
+     	margin-right: 2%;
+     }
+}
+
+/*--------- phones----------*/
+
+@media(max-width: 767px){
+
+	.land{
+		width: 95%;
+		margin-right: 0;
+}
+
+    .sky{
+    	width: 95%;
+    	margin-top: 20px
+    }
+
+    .ocean{
+    	width: 95%;
+    	margin-top: 20px
+    }
+}
+
