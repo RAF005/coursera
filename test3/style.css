@@ -1,0 +1,41 @@
+
+.food {
+	font-size: 40px; 
+	font-weight: bold;
+    padding: 10px 50px 20px;
+    border: 3px bold;
+    background-color: gray;
+    color: black;
+
+}
+.navbar-toggle{
+	float: right;
+	height: 30px;
+	width: 35px;
+}
+
+
+.HM {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.Chicken, .Meat, .Sushi {
+	width: 90%;
+	margin-left: 5%;
+	background-color: #23c7d3;
+	margin-bottom: 50px;
+
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 5px;
+
+}
+p{
+	padding: 10px;
+}
+
+
