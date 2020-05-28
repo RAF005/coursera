@@ -1,17 +1,37 @@
 
-.food {
-	font-size: 40px; 
-	font-weight: bold;
-    padding: 10px 50px 20px;
-    border: 3px bold;
-    background-color: gray;
-    color: black;
-
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: black;
 }
-.navbar-toggle{
+
+#header-nav {
+  border: 0;
+  background-color: gray;
+  color: #000000;
+}
+
+.navbar-toggle {
 	float: right;
-	height: 30px;
-	width: 35px;
+	height: 35px;
+	width: 40px;
+}
+.icon-bar{
+  border: 1px solid;
+}
+
+
+.nav-brand {
+  color: black;
+  font-size: 1em;
+}
+#nav-list {
+  color: white;
+}
+
+.item {
+  color: black;
+  font-size: 1em;
 }
 
 
@@ -38,4 +58,9 @@ p{
 	padding: 10px;
 }
 
+@media (min-width: 768px) {
+	.navbar-toggle{
+		display: none;
+	}
+}
 
